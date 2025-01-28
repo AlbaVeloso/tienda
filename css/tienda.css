@@ -2,13 +2,19 @@
     border: 1px solid black;
 }
 header{
+    size: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
 header i{
-    font-size: 30px;
+    font-size: 40px;
    
+}
+header p {
+    font-size: 30px;
+    color: white;
 }
 .container{
     width: 80%;
@@ -23,5 +29,35 @@ main aside{
 }
 main section{
     width: 70%;
+    height: 70%;
     
+}
+ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    border: top;
+}
+footer{
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: none;
+}
+aside ul {
+    list-style: none;
+
+}
+aside ul li {
+    margin-top: 10px;
+}
+aside ul li i {
+    margin-right: 10px;
+    
+
+}
+.contacto {
+    display: flex;
+    justify-content: space-between;
 }

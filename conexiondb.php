@@ -12,4 +12,6 @@ $database = DB_DATABASE;
     //echo "Conexión exitosa";
 
 
+    // esto se puede hacer también con msqli
+
 ?>
